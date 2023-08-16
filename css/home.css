@@ -20,13 +20,13 @@
   border: none;
 }
 
-html#animated .btn-360,
-html#animated img.static {
+html.animation button.btn-360,
+html.animation img.static {
   display: none;
 }
 
-html#animated button.btn-close,
-html#animated img.animated {
+html.animation button.btn-close,
+html.animation img.animated {
   display: initial;
 }
 
