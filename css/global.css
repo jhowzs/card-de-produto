@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+:root {
+  --bg-color: #d9cdf7;
+  --text-color: #271a45;
+}
+
+body {
+  background-color: var(--bg-color);
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+body * {
+  color: var(--text-color);
+  font-family: "Lato", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}

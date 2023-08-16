@@ -1,0 +1,67 @@
+.btn-close,
+.animated {
+  display: none;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  gap: 63px;
+}
+
+.product-image {
+  position: relative;
+}
+
+.product-image button {
+  position: absolute;
+  right: 0;
+  background: transparent;
+  border: none;
+}
+
+html#animated .btn-360,
+html#animated img.static {
+  display: none;
+}
+
+html#animated button.btn-close,
+html#animated img.animated {
+  display: initial;
+}
+
+.product-image > img {
+  width: 449px;
+  height: 222px;
+  object-fit: cover;
+}
+
+.product-details span {
+  font-weight: 300;
+  font-size: 0.625rem;
+  line-height: 100%;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.product-details h1 {
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 100%;
+  margin-bottom: 12px;
+}
+
+.product-details p {
+  opacity: 0.67;
+  margin-bottom: 20px;
+}
+
+.product-details button {
+  padding: 8px 16px;
+  background: transparent;
+  border: 0.5px solid var(--text-color);
+  border-radius: 999px;
+  text-transform: uppercase;
+}
