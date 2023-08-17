@@ -23,5 +23,5 @@
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JAVASCRIPT</font></font></li>
 </ul>
 <br>
-  <p>Estarei novamente, disponibilizando o link do site. <a href="https://portfolio-jhowzs.vercel.app/">CLIQUE AQUI.</a> </p>
+  <p>Estarei novamente, disponibilizando o link do site. <a href="https://card-de-produto-jhowzs.vercel.app/">CLIQUE AQUI.</a> </p>
 
